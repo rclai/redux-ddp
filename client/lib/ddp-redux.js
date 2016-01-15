@@ -28,7 +28,7 @@ export const syncCollectionToStore = (
 
       // Compared to minimongo, there's no need to pause
       // observers because of the way React works, so you won't
-      // actually see a flicker!
+      // actually see a flicker (maybe?)!
     },
 
     update(packet) {
