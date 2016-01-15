@@ -7,7 +7,7 @@ Geting Meteor DDP collection data to get synced straight into a Redux store inst
 
 ## What doesn't work
 
-- Optimistic updates. I would need to call on the store's dispatch function inside the method stub in order for it work properly.
+- Optimistic updates. I would need to call on the store's dispatch function inside the method stub in order for it work properly. See [this issue](https://github.com/rclai/redux-ddp/issues/1) for more details.
 
 ## Implications of this
 
