@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Random } from 'meteor/random';
+import { _ } From 'meteor/underscore';
 
 export const syncCollectionToStore = (
   collection, 
