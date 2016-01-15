@@ -33,7 +33,8 @@ const rootReducer = combineReducers({
 // Create your store however you do it
 const store = createStore(rootReducer);
 
-// After creating your store, then you call this that's it
+// Call this after creating your store and your DDP collection
+// will now be synced to your Redux store!
 syncCollectionToStore('players', store);
 // Sync other collections too
 // syncCollectionToStore('todos', store);
