@@ -1,5 +1,5 @@
 # redux-ddp
-Geting Meteor DDP collection data to get synced straight into a Redux store instead of minimongo and apply optimistic updates too.
+Getting Meteor DDP collection data to get synced straight into a Redux store instead of minimongo and figuring out how to apply optimistic updates.
 
 ## What works
 
