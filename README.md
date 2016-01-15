@@ -19,6 +19,8 @@ Geting Meteor DDP collection data to get synced straight into a Redux store inst
 
 The collections are currently in a plain object, indexed by their IDs.
 
+You can see the implementation [here](https://github.com/rclai/redux-ddp/blob/master/client/lib/ddp-redux.js).
+
 ## The gist
 
 ```js
