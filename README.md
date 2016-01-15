@@ -4,6 +4,8 @@ Geting Meteor DDP collection data to get synced straight into a Redux store inst
 ## What works
 
 - Data is synced to the Redux store, not minimongo
+- You can use different DDP connection objects, see the code
+- As a result, you can use an alias for the collection you're syncing, see the code
 
 ## What doesn't work
 
