@@ -10,6 +10,7 @@ Meteor.publish('players', function() {
   return Players.find();
 });
 
+// The same methods that @looshi had on his example
 Meteor.methods({
 
   'players.fetch': function(playerId) {
