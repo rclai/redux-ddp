@@ -21,6 +21,8 @@ Getting Meteor DDP collection data to get synced straight into a Redux store ins
 
 The collections are currently in a plain object, indexed by their IDs.
 
+I am using Meteor's internal package `livedata`, which exposes a `registerStore` method on the DDP connection object to define a custom store to get the DDP data straight to the Redux store. `livedata` is the package that `minimongo` and other third-party packages like `numtel:mysql` and `ccorcos:any-db` use to feed the DDP data into their own store.
+
 You can see the implementation [here](https://github.com/rclai/redux-ddp/blob/master/client/lib/ddp-redux.js).
 
 ## The gist
