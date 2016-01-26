@@ -28,7 +28,7 @@ You can see the implementation [here](https://github.com/rclai/redux-ddp/blob/ma
 ## The gist
 
 ```js
-import { createStore } from 'redux';
+import { createStore, combineReducers } from 'redux';
 import { collectionReducer, syncCollectionToStore } from '/path/to/redux-ddp (not final yet)';
 
 const rootReducer = combineReducers({
