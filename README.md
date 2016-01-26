@@ -13,9 +13,9 @@ Getting Meteor DDP collection data to get synced straight into a Redux store ins
 
 ## Implications of this
 
-- No Mongo queries
+- No Mongo queries (on the client)
 - No duplication of data in minimongo and Redux
-- You need to depend on functional programming like `lodash` or `underscore` to query your collection, which is not so bad because you can still use `_.filter`, `_.map`, and even `_.orderBy` on plain objects.
+- You need to depend on functional programming like `lodash` or `underscore` to query your collection, which is not so bad because you can still use `_.filter`, `_.map`, `_.reduce` and even `_.orderBy` on plain objects.
 
 ## Details
 
