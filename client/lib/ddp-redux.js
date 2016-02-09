@@ -79,7 +79,7 @@ const updatedDoc = (oldDoc, fields) => {
   _.each(fields, (value, key) => {
     if (value === undefined) {
       newDoc[key] = null;
-      delete doc[key];
+      delete newDoc[key];
     } else {
       // DDP doesn't care how nested fields have changed
       newDoc[key] = value;
